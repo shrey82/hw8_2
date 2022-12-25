@@ -1,0 +1,45 @@
+{
+    "users": [
+        {
+            "email": "patelshrey115@gmail.com",
+            "password": "12345678",
+            "reservation_current": [
+                {
+                    "reservation_id": "xyz",
+                    "reservation_date": "2020-12-12",
+                    "reservation_time": "12:00",
+                    "reservation_status": "pending"
+                }
+            ],
+            "reservation_history": [
+                {
+                    "reservation_id": "xyz1",
+                    "reservation_date": "2020-12-12",
+                    "reservation_time": "12:00",
+                    "reservation_status": "pending"
+                }
+            ],
+            "all_reservation": [
+                {
+                    "reservation_id": "xyz",
+                    "reservation_date": "2020-12-12",
+                    "reservation_time": "12:00",
+                    "reservation_status": "pending"
+                },
+                {
+                    "reservation_id": "xyz1",
+                    "reservation_date": "2020-12-12",
+                    "reservation_time": "12:00",
+                    "reservation_status": "pending"
+                }
+            ]
+        },
+        {
+            "email": "john@gmail.com",
+            "password": "12345678",
+            "reservation_current": [],
+            "reservation_history": [],
+            "all_reservation": []
+        }
+    ]
+}
